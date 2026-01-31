@@ -5,7 +5,7 @@ import io
 
 # --- 1. ตั้งค่า API Key ---
 # นำ API Key ที่ได้จาก Google AI Studio มาวางในเครื่องหมายคำพูดด้านล่าง
-genai.configure(api_key="ใส่_API_KEY_ของคุณที่นี่")
+genai.configure("AIzaSyAxQYxaNDvmSF06N8h8cS4rhzJ4QUCB8io")
 
 # --- 2. ตั้งค่าหน้าตาแอป ---
 st.set_page_config(page_title="AI Clothes Changer", layout="centered")
@@ -75,3 +75,4 @@ if uploaded_file:
 # --- 6. คำแนะนำเพิ่มเติม ---
 st.divider()
 st.info("หมายเหตุ: Gemini 1.5 Flash จะเน้นการอธิบายและปรับเปลี่ยนภาพ หากต้องการสร้างภาพใหม่ทับลงไปโดยตรง ระบบต้องเชื่อมต่อกับโมเดลประเภท Inpainting เช่น Imagen 3 หรือ Stable Diffusion ครับ")
+
